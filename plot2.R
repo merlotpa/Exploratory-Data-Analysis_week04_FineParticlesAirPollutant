@@ -35,6 +35,6 @@ barplot(height=aggByYear$Emissions,
         names.arg=aggByYear$year,
         xlab = "Year",
         ylab = "PM2.5 Emissions (tons)",
-        main = "Total PM2.5 Emissions in Baltimore City (Maryland) from 1999 to 2008")
-dev.copy(png, file="plot2.png", width=480, height=480)
+        main = "Total PM2.5 Emissions in Baltimore City (MD) from 1999 to 2008")
+dev.copy(png, file="plot2.png", height=480)
 dev.off()
