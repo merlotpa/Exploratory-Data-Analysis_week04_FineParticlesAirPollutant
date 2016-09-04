@@ -74,7 +74,7 @@ The overall goal of this assignment is to explore the National Emissions Invento
 
 ![plot1.png](plot1.png "Plot1")
 
-**We see from the plot below that the total emission of PM2.5 accross the USA has gradually decreased from 7 millions tons in 1999 to 52% less in 2008.**
+**We see from the plot above that the total emission of PM2.5 accross the USA has gradually decreased from 7 millions tons in 1999 to 52% less in 2008.**
 
 > Q2. Have total emissions from PM2.5 decreased in the *Baltimore City*, Maryland (*fips == "24510"*) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
