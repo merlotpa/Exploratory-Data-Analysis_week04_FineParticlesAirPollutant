@@ -71,31 +71,37 @@ The overall goal of this assignment is to explore the National Emissions Invento
 > You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 > 
 > 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
-    We see from the plot below that the total emission of PM2.5 accross the USA has gradually decreased from 7 millions tons in 1999 to 52% less in 2008.
-    ![plot1.png](plot1.png "Plot1")
+
+**We see from the plot below that the total emission of PM2.5 accross the USA has gradually decreased from 7 millions tons in 1999 to 52% less in 2008.**
+![plot1.png](plot1.png "Plot1")
 
 > 2. Have total emissions from PM2.5 decreased in the *Baltimore City*, Maryland (*fips == "24510"*) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
-    Looking at the total emission of PM2.5 in Baltimore City during the same period, we see that it had also dramatically decreased between 1999 and 2008 by more than 40%, despite an increase from 2002 to 2005.
-    ![plot2.png](./plot2.png?raw=true "Plot2")
+
+**Looking at the total emission of PM2.5 in Baltimore City during the same period, we see that it had also dramatically decreased between 1999 and 2008 by more than 40%, despite an increase from 2002 to 2005.**
+![plot2.png](./plot2.png?raw=true "Plot2")
 
 > 3. Of the four types of sources indicated by the *type* (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for *Baltimore City*? Which have seen increases in emissions from 1999–2008? Use the *ggplot2* plotting system to make a plot answer this question.
-    ![plot3.png](./plot3.png?raw=true "Plot3")
-    All source types except the *point* source have seen their emissions of PM2.5 decrease from 1999 to 2008 in Baltimore City.
-    Only the point source increased slightly from 1999 to 2008, but reached its highest peak in 2005.
+
+![plot3.png](./plot3.png?raw=true "Plot3")
+**All source types except the *point* source have seen their emissions of PM2.5 decrease from 1999 to 2008 in Baltimore City.
+Only the point source increased slightly from 1999 to 2008, but reached its highest peak in 2005.**
 
 
 > 4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
-    ![plot4.png](./plot4.png?raw=true "Plot4")
-    The emissions of PM2.5 from coal combustion diminished in parallel of the overal emission of PM2.5 during that period. It represented 8% of the total emission of PM2.5 in 1999, and 10% in 2008.    
+
+![plot4.png](./plot4.png?raw=true "Plot4")
+**The emissions of PM2.5 from coal combustion diminished in parallel of the overal emission of PM2.5 during that period. It represented 8% of the total emission of PM2.5 in 1999, and 10% in 2008.**
 
 > 5. How have emissions from motor vehicle sources changed from 1999–2008 in *Baltimore City*?
-    ![plot5.png](./plot5.png?raw=true "Plot5")
-    The emissions of PM2.5 in Baltimore City due to motor vehicle sources dimished drastically from 400 tons in 1999 to 140 tons in 2008. By comparing to the total emission of PM2.5 in Baltimore City (Question 2) where it showed an net decrease of 1400 tons of PM2.5, we see that the motor vehicles represented almost 20% of this fall between 1999 and 2008.
+
+![plot5.png](./plot5.png?raw=true "Plot5")
+**The emissions of PM2.5 in Baltimore City due to motor vehicle sources dimished drastically from 400 tons in 1999 to 140 tons in 2008. By comparing to the total emission of PM2.5 in Baltimore City (Question 2) where it showed an net decrease of 1400 tons of PM2.5, we see that the motor vehicles represented almost 20% of this fall between 1999 and 2008.**
+
 > 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in *Los Angeles County*, California (*fips == "06037"*). Which city has seen greater changes over time in motor vehicle emissions?
-    ![plot6.png](./plot6.png?raw=true "Plot6")
-    The difference of emission of PM2.5 between LA and Baltimore City is striking. Los Angeles emitted 15 times more PM2.5 than Baltimore in 1999, and increased slightly from 1999 to 2008, while Baltimore City managed to decrease their emission, so that LA emitted more than 45 times particles than Baltimore City in 2008.
-> 
-> 
+
+![plot6.png](./plot6.png?raw=true "Plot6")
+**The difference of emission of PM2.5 between LA and Baltimore City is striking. Los Angeles emitted 15 times more PM2.5 than Baltimore in 1999, and increased slightly from 1999 to 2008, while Baltimore City managed to decrease their emission, so that LA emitted more than 45 times particles than Baltimore City in 2008.**
+
 > 
 > ### Making and Submitting Plots
 > For each plot you should
