@@ -125,22 +125,4 @@ Only the point source increased slightly from 1999 to 2008, but reached its high
 
 ### The raw data
 
-The [raw data](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip) is already saved locally in this repository for reproducability purpose ([./rawData/exdata_data_NEI_data.zip]()).
-
-If deleted, the raw data will be downloaded again programatically through the main script with a call to this url:
-
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-
-### Project output
-
-### Recipe and 'R' Script
-
-Run the R script [`run.r`](./run.R) in order to regenerate the ...
-
-The script performs the tasks expected for the assignment:
-
-* Download the raw data if it's not already present in [rawData/](./rawData)
-* Extract the .zip file into a directory named 'blablabla'
-* Check if the expected files are present in the directory 
-* Read the data of each *.rds* file into dataframes
-* Answer the 6 questions each associated to a plot (in *.png* format, one independant R script per plot)
+The [raw data](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip) is already saved locally in this repository for reproducability purpose ([https://github.com/merlotpa/Exploratory-Data-Analysis_week04_FineParticlesAirPollutant/blob/master/rawData/exdata_data_NEI_data.zip?raw=true]()).
