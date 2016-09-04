@@ -17,7 +17,7 @@ if(!exists("SCC")){
 ### Use the ggplot2 plotting system to make a plot answer this question.
 
 ####  Find PostCode of Baltimore-City to match the fips
-install.packages("maps")
+# install.packages("maps")
 library("maps")
 county.fips[grep("baltimore", county.fips$polyname),]
 # fips                polyname
