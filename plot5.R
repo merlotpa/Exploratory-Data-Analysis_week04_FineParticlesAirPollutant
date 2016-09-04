@@ -54,8 +54,7 @@ g <- ggplot(aggByYear, aes(year, Emissions))
 g <- g + geom_line() +
         xlab("year") +
         ylab("PM2.5 Emissions (tons)") +
-        ggtitle("Total PM2.5 Emissions by the vehicles in Baltimore City (MD) from 1999 to 2008")
+        ggtitle("Total PM2.5 Emissions from motor vehicle sources in Baltimore City (MD) from 1999 to 2008")
 print(g)
-
 dev.copy(png, file="plot5.png", height=480)
 dev.off()
