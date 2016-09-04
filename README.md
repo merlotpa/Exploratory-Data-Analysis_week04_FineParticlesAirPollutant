@@ -100,7 +100,7 @@ Only the point source increased slightly from 1999 to 2008, but reached its high
 
 ![plot5.png](./plot5.png?raw=true "Plot5")
 
-**The emissions of PM2.5 in Baltimore City due to motor vehicle sources dimished drastically from 400 tons in 1999 to 140 tons in 2008. By comparing to the total emission of PM2.5 in Baltimore City (Question 2) where it showed an net decrease of 1400 tons of PM2.5, we see that the motor vehicles represented almost 20% of this fall between 1999 and 2008.**
+**The emissions of PM2.5 in Baltimore City due to motor vehicle sources dimished drastically from 400 tons in 1999 to 140 tons in 2008. By comparing to the total emission of PM2.5 in Baltimore City (Question 2) where it showed a net decrease of 1400 tons of PM2.5, we see that the motor vehicles represented around 20% of this fall between 1999 and 2008.**
 
 > Q6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in *Los Angeles County*, California (*fips == "06037"*). Which city has seen greater changes over time in motor vehicle emissions?
 
