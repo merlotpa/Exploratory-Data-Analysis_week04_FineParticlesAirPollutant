@@ -120,9 +120,3 @@ Only the point source increased slightly from 1999 to 2008, but reached its high
 > * Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
 
 
-
-## Content of this repository
-
-### The raw data
-
-The [raw data](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip) is already saved locally in this repository for reproducability purpose ([https://github.com/merlotpa/Exploratory-Data-Analysis_week04_FineParticlesAirPollutant/blob/master/rawData/exdata_data_NEI_data.zip?raw=true]()).
